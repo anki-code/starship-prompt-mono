@@ -20,6 +20,7 @@
 ```xsh
 mkdir -p ~/.config
 wget https://raw.githubusercontent.com/anki-code/starship-prompt-mono/refs/heads/main/starship.toml
+vim starship.toml  # Set your shell character: `@` - xonsh, `$` - bash, `%` - zsh, `~>` - fish.
 # Run the shell with starship support
 ```
 
