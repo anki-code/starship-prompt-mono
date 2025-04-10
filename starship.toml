@@ -1,0 +1,74 @@
+palette = "grey"
+format = """$username$hostname$directory$fill[$all](grey)$time$line_break$character"""
+
+[fill]
+symbol = '─'
+style = '#222222'
+
+[character]
+success_symbol = "[@](bold green)"
+error_symbol = "[@](bold red)"
+
+[cmd_duration]
+min_time = 10000
+
+[time]
+disabled = false
+time_format = "%F %T"
+style = "#444444"
+format = '[$time]($style)'
+
+[python]
+symbol = "py "
+
+[package]
+symbol = "package "
+style = "#777777"
+
+[git_branch]
+symbol = "git "
+
+[aws]
+symbol = "aws "
+
+[terraform]
+symbol = "tf "
+style = "bold #777777"
+
+[palettes.grey]
+grey = "#777777"
+none = "#777777"
+white = "#777777"
+rosewater = "#777777"
+flamingo = "#777777"
+pink = "#777777"
+mauve = "#777777"
+maroon = "#777777"
+peach = "#777777"
+sky = "#777777"
+sapphire = "#777777"
+blue = "#777777"
+lavender = "#777777"
+text = "#777777"
+subtext1 = "#777777"
+subtext0 = "#777777"
+overlay2 = "#777777"
+overlay1 = "#777777"
+overlay0 = "#777777"
+surface2 = "#777777"
+surface1 = "#777777"
+surface0 = "#777777"
+base = "#777777"
+mantle = "#777777"
+crust = "#777777"
+background = "#777777"
+current_line = "#777777"
+foreground = "#777777"
+comment = "#777777"
+cyan = "#777777"
+green = "#777777"
+orange = "#777777"
+purple = "#777777"
+red = "#777777"
+yellow = "#777777"
+
