@@ -4,6 +4,16 @@ Monochrome style for [starship](https://github.com/starship/starship) prompt. Us
 
 <img width="1170" alt="image" src="https://github.com/user-attachments/assets/e3aafd9f-c6ad-4ca0-a902-9e7767201212" />
 
+Concept:
+
+* No color juggling.
+
+* Focus on input line and current directory; other things are secondary.
+
+* Command always starts at a fixed position.
+
+* Output is separated by a line.
+
 ## Install
 
 ```xsh
