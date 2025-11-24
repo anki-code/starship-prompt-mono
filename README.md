@@ -11,6 +11,11 @@
 * Output is separated by a line.
 * Time matters.
 
+<p align="center">
+If you like the cheatsheet click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Monochrome style for Starship prompt.&url=https://github.com/anki-code/starship-prompt-mono" target="_blank">tweet</a> about it.
+</p>
+
+
 ## Appearance
 
 <img width="1170" alt="image" src="https://github.com/user-attachments/assets/e3aafd9f-c6ad-4ca0-a902-9e7767201212" />
