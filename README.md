@@ -3,6 +3,10 @@
   Monochrome style for <a href="https://github.com/starship/starship">starship prompt</a>. Using single color without emoji to stay focused on command line.
 </p>
 
+<p align="center">
+If you like the cheatsheet click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Monochrome style for Starship prompt.&url=https://github.com/anki-code/starship-prompt-mono" target="_blank">tweet</a> about it.
+</p>
+
 ## Concept
 
 * No color juggling and spam with emojis.
@@ -10,11 +14,6 @@
 * Command always starts at a fixed position.
 * Output is separated by a line.
 * Time matters.
-
-<p align="center">
-If you like the cheatsheet click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Monochrome style for Starship prompt.&url=https://github.com/anki-code/starship-prompt-mono" target="_blank">tweet</a> about it.
-</p>
-
 
 ## Appearance
 
