@@ -35,6 +35,7 @@ vim starship.toml  # Set your shell character: `@` - xonsh, `$` - bash, `%` - zs
 ### Using with xonsh
 
 Use starship-prompt-mono with xonsh via [xontrib-prompt-starship](https://github.com/anki-code/xontrib-prompt-starship).
+To make an accent to the input take a look [LolcatProcessor](https://github.com/xonsh/xonsh/discussions/6050).
 
 ## Credits
 
