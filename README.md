@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Monochrome style for Starship prompt.&url=https://github.com/anki-code/starship-prompt-mono" target="_blank">tweet</a> about it.
+If you like the idea click ⭐ on the repo and spread the word about it.
 </p>
 
 ## Concept
