@@ -3,10 +3,6 @@
   Monochrome style for <a href="https://github.com/starship/starship">starship prompt</a>. Using single color without emoji to stay focused on command line.
 </p>
 
-<p align="center">
-If you like the idea click ⭐ on the repo and spread the word about it.
-</p>
-
 ## Concept
 
 * No color juggling and spam with emojis.
@@ -14,6 +10,8 @@ If you like the idea click ⭐ on the repo and spread the word about it.
 * Command always starts at a fixed position.
 * Output is separated by a line.
 * Time matters.
+
+If you like the idea click ⭐ on the repo and spread the word about it.
 
 ## Appearance
 
