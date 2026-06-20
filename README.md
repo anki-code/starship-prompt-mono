@@ -46,9 +46,37 @@ format = """$username$hostname$directory$fill[$all](grey)$time$line_break$env_va
 [env_var.MYPROJECT]
 variable = "MYPROJECT"
 format = "[$env_value]($style)"
-style = "bold blue"
+style = "#777777"
 default = ""
 ```
+
+## Supported modules
+
+starship-prompt-mono includes explicit configurations for these modules, all styled with a consistent monochrome grey:
+
+| Module | Symbol | Purpose |
+| ------ | ------ | ------- |
+| `[username]` | — | Current user (shown only when root or remote) |
+| `[hostname]` | — | Hostname (shown only over SSH) |
+| `[directory]` | — | Working directory, truncated to 4 segments |
+| `[time]` | — | Current date and time (`%F %T`) |
+| `[cmd_duration]` | `⏱` | Command execution time (threshold: 10 s) |
+| `[git_branch]` | `git` | Active git branch |
+| `[git_status]` | — | Git working tree status |
+| `[git_commit]` | — | Current commit hash |
+| `[git_state]` | — | Git operation in progress (rebase, merge, etc.) |
+| `[nodejs]` | `node` | Node.js version |
+| `[rust]` | `rs` | Rust version |
+| `[golang]` | `go` | Go version |
+| `[python]` | `py` | Python version |
+| `[aws]` | `aws` | AWS profile |
+| `[gcloud]` | `gcp` | GCP active config |
+| `[kubernetes]` | `k8s` | Kubernetes context |
+| `[docker]` | `docker` | Docker context |
+| `[terraform]` | `tf` | Terraform workspace |
+| `[package]` | `package` | Package version for the current project |
+| `[jobs]` | `⚙` | Background jobs (shown when ≥ 1) |
+| `[shlvl]` | — | Shell nesting level (shown when ≥ 2) |
 
 ## Credits
 
