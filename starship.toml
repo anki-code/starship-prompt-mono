@@ -112,11 +112,6 @@ symbol = "k8s "
 style = "#777777"
 format = '[$symbol\($context\)]($style)'
 
-[docker]
-symbol = "docker "
-style = "#777777"
-format = "[$symbol($context )]($style)"
-
 [terraform]
 symbol = "tf "
 style = "#777777"
