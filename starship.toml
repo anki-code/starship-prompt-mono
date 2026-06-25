@@ -53,25 +53,25 @@ format = "[⏱ $duration]($style)"
 
 [git_branch]
 symbol = "git "
-style = "#777777"
-format = "[$symbol$branch]($style)"
+# style = "#777777"
+# format = "[$symbol$branch]($style)"
 
-[git_status]
-style = "#777777"
-format = "[$all_status$ahead_behind]($style)"
-conflicted = "≠"
-ahead = "⇡"
-behind = "⇣"
-diverged = "⇕"
-up_to_date = ""
+# [git_status]
+# style = "#777777"
+# format = "[$all_status$ahead_behind]($style)"
+# conflicted = "≠"
+# ahead = "⇡"
+# behind = "⇣"
+# diverged = "⇕"
+# up_to_date = ""
 
-[git_commit]
-style = "#777777"
-format = "[$hash]($style)"
+# [git_commit]
+# style = "#777777"
+# format = "[$hash]($style)"
 
-[git_state]
-style = "#777777"
-format = '[\($state( $progress_current of $progress_total)\)]($style)'
+# [git_state]
+# style = "#777777"
+# format = '[\($state( $progress_current of $progress_total)\)]($style)'
 
 # ── Language runtimes ──────────────────────────────────────────────
 
