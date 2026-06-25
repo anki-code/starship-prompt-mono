@@ -1,6 +1,8 @@
 palette = "grey"
 format = """$username$hostname$directory$fill[$all](grey)$time$line_break$character"""
 
+# ── Shell interaction ──────────────────────────────────────────────
+
 [character]
 success_symbol = "[@](bold green)"
 error_symbol = "[@](bold red)"
@@ -9,8 +11,30 @@ error_symbol = "[@](bold red)"
 symbol = '─'
 style = '#222222'
 
-[cmd_duration]
-min_time = 10000
+# ── Context modules ────────────────────────────────────────────────
+
+[username]
+style_user = "#777777"
+style_root = "bold #777777"
+format = "[$user]($style)"
+show_always = false
+
+[hostname]
+ssh_only = true
+style = "#777777"
+format = "[$hostname]($style)"
+disabled = false
+
+[directory]
+truncation_length = 4
+truncate_to_repo = true
+style = "#777777"
+format = "[$path]($style)"
+
+[shell]
+disabled = true
+
+# ── Time ────────────────────────────────────────────────────────────
 
 [time]
 disabled = false
@@ -18,22 +42,113 @@ time_format = "%F %T"
 style = "#444444"
 format = '[$time]($style)'
 
+# ── Command duration ──────────────────────────────────────────────
+
+[cmd_duration]
+min_time = 10000
+style = "#777777"
+format = "[⏱ $duration]($style)"
+
+# ── Git modules ────────────────────────────────────────────────────
+
+[git_branch]
+symbol = "git "
+style = "#777777"
+format = "[$symbol$branch]($style)"
+
+[git_status]
+style = "#777777"
+format = "[$all_status$ahead_behind]($style)"
+conflicted = "≠"
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+up_to_date = ""
+
+[git_commit]
+style = "#777777"
+format = "[$hash]($style)"
+
+[git_state]
+style = "#777777"
+format = '[\($state( $progress_current of $progress_total)\)]($style)'
+
+# ── Language runtimes ──────────────────────────────────────────────
+
+[nodejs]
+symbol = "node "
+style = "#777777"
+format = "[$symbol($version )]($style)"
+
+[rust]
+symbol = "rs "
+style = "#777777"
+format = "[$symbol($version )]($style)"
+
+[golang]
+symbol = "go "
+style = "#777777"
+format = "[$symbol($version )]($style)"
+
 [python]
 symbol = "py "
+style = "#777777"
+format = "[$symbol($version )]($style)"
+
+# ── Cloud / DevOps ────────────────────────────────────────────────
+
+[aws]
+symbol = "aws "
+style = "#777777"
+format = "[$symbol($profile )]($style)"
+
+[gcloud]
+symbol = "gcp "
+style = "#777777"
+format = "[$symbol($active )]($style)"
+
+[kubernetes]
+symbol = "k8s "
+style = "#777777"
+format = '[$symbol\($context\)]($style)'
+
+[docker]
+symbol = "docker "
+style = "#777777"
+format = "[$symbol($context )]($style)"
+
+[terraform]
+symbol = "tf "
+style = "#777777"
+format = "[$symbol($workspace)]($style)"
+
+# ── Package management ────────────────────────────────────────────
 
 [package]
 symbol = "package "
 style = "#777777"
+format = "[$symbol$version]($style)"
 
-[git_branch]
-symbol = "git "
+# ── System modules ────────────────────────────────────────────────
 
-[aws]
-symbol = "aws "
+[jobs]
+symbol = "⚙ "
+style = "#777777"
+format = "[$symbol$number]($style)"
+threshold = 1
 
-[terraform]
-symbol = "tf "
-style = "bold #777777"
+[memory_usage]
+disabled = true
+
+[battery]
+disabled = true
+
+[shlvl]
+style = "#777777"
+format = "[$shlvl]($style)"
+threshold = 2
+
+# ── Palette (all colours mapped to a single grey) ─────────────────
 
 [palettes.grey]
 grey = "#777777"
@@ -71,4 +186,3 @@ orange = "#777777"
 purple = "#777777"
 red = "#777777"
 yellow = "#777777"
-

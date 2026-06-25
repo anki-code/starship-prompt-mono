@@ -46,7 +46,7 @@ format = """$username$hostname$directory$fill[$all](grey)$time$line_break$env_va
 [env_var.MYPROJECT]
 variable = "MYPROJECT"
 format = "[$env_value]($style)"
-style = "bold blue"
+style = "#777777"
 default = ""
 ```
 
