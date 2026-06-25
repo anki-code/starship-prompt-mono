@@ -71,7 +71,7 @@ format = "[$hash]($style)"
 
 [git_state]
 style = "#777777"
-format = "[\($state( $progress_current of $progress_total)\)]($style)"
+format = '[\($state( $progress_current of $progress_total)\)]($style)'
 
 # ── Language runtimes ──────────────────────────────────────────────
 
@@ -110,7 +110,7 @@ format = "[$symbol($active )]($style)"
 [kubernetes]
 symbol = "k8s "
 style = "#777777"
-format = "[$symbol\($context\)]($style)"
+format = '[$symbol\($context\)]($style)'
 
 [docker]
 symbol = "docker "
